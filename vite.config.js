@@ -9,8 +9,8 @@ module.exports = defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      formats: ['es'],
-      fileName: () => "index.js"
+      name: 'bundle',
+      fileName: (format) => `bundle.${format}.js`
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

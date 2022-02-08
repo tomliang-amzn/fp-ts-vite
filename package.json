@@ -1,9 +1,15 @@
 {
   "name": "@tomliang-amzn/fp-ts-vite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "type": "module",
-  "module": "dist/index.js",
+  "main": "./dist/bundle.umd.js",
+  "module": "./dist/bundle.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/bundle.es.js",
+      "require": "./dist/bundle.umd.js"
+    }
+  },
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",

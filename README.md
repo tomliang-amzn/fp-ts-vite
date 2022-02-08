@@ -7,3 +7,6 @@ dir.
 ## Reference
 * Microsoft TypeScript-Babel-Starter: https://github.com/microsoft/TypeScript-Babel-Starter
 * fp-ts: https://github.com/gcanti/fp-ts
+
+## Publish
+npm package is available at: https://www.npmjs.com/package/@tomliang-amzn/fp-ts

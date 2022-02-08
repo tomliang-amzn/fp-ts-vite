@@ -1,0 +1,1 @@
+Reference: https://github.com/microsoft/TypeScript-Babel-Starter
